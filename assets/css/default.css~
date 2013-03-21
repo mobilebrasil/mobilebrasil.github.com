@@ -1,0 +1,20 @@
+body {
+padding-top: 20px;
+padding-bottom: 40px;
+margin: 0;
+}
+
+.masthead,
+#main,
+.footer {
+padding: 0 50px
+}
+
+.hero-unit{
+background-color: #37ACC2;
+color: #FFF;
+border-radius: 0;
+}
+
+
+
