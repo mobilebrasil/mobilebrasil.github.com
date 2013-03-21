@@ -1,23 +1,24 @@
 body {
-padding-top: 20px;
-padding-bottom: 40px;
-margin: 0;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin: 0;
 }
 
 .masthead,
-#main,
+.main,
 .footer {
-padding: 0 50px
+	padding: 0 50px
 }
 
 .hero-unit{
-background-color: #37ACC2;
-color: #FFF;
-border-radius: 0;
+	background-color: #37ACC2;
+	color: #FFF;
+	border-radius: 0;
 }
 
-.main{
-background-color: #EAEAEA;
+.footer{
+	background-color: #EAEAEA;
+	padding: 30px 50px;
 }
 
 
