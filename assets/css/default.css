@@ -4,9 +4,7 @@ body {
 	margin: 0;
 }
 
-.masthead,
-.main,
-.footer {
+.masthead, .main, .footer {
 	padding: 0 50px
 }
 
@@ -16,8 +14,11 @@ body {
 	border-radius: 0;
 }
 
+.main .row article{
+	width: 30%;
+}
+
 .footer{
-	background-color: #EAEAEA;
 	padding: 30px 50px;
 }
 
