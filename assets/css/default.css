@@ -6,7 +6,7 @@ body {
 }
 
 .masthead, .main, .footer {
-	padding: 0 3em
+	padding: 0 10em;
 }
 
 .container{
@@ -17,6 +17,7 @@ body {
 	background-color: #37ACC2;
 	color: #FFF;
 	border-radius: 0;
+	padding: 5em 8em;
 }
 
 .main .row article{
@@ -24,5 +25,5 @@ body {
 }
 
 .footer{
-	padding: 2em 3em;
+	padding: 2em 10em;
 }
