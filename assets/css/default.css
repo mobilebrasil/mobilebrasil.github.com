@@ -6,7 +6,11 @@ body {
 }
 
 .masthead, .main, .footer {
-	padding: 0 50px
+	padding: 0 3em
+}
+
+.container{
+	width: 100%;
 }
 
 .hero-unit{
@@ -20,8 +24,5 @@ body {
 }
 
 .footer{
-	padding: 30px 50px;
+	padding: 2em 3em;
 }
-
-
-
