@@ -1,0 +1,66 @@
+@font-face {
+	font-family: "bauhaus";
+	src: url("../fonts/BAUHS93.TTF");
+}
+
+body {
+	/*background-color: #489CCE;*/
+	background-image: url(../img/background-img.jpg);
+}
+
+/* Estilização do menu */
+.nav {
+	padding-bottom: 20px;
+}
+
+.nav-pills > .active > a {
+	background-color: #CD2626;
+}
+
+.nav-pills > .active > a:hover {
+	color: #CD2626;
+	text-decoration: none;
+}
+
+a {
+	color: #CD2626;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+li {
+	padding: 50px;
+}
+
+/*E stilização corpo */
+.container {
+	padding-top: 20px;
+}
+
+.logo {
+	font-family: "bauhaus";
+	font-size: 200px;
+	color: #CD2626;
+}
+
+.first-part {
+	height: 150px;
+}
+
+.second-part {
+	padding-right: 185px;
+	height: 120px;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.slogan {
+	font-size: 22px;
+	text-align: center;
+}
