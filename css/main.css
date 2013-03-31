@@ -27,13 +27,19 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+.nav > li > a:hover {
 	color: #fff;
 	text-decoration: none;
+	background-color: #CD2626;
+}
+
+.nav-pills > .active > a:hover {
+	color: #CD2626;
+	background-color: #eee;
 }
 
 li {
-	padding: 50px;
+	padding: 60px;
 }
 
 /*E stilização corpo */
@@ -49,10 +55,11 @@ li {
 
 .first-part {
 	height: 150px;
+	padding-left: 60px;
 }
 
 .second-part {
-	padding-right: 185px;
+	padding-right: 125px;
 	height: 120px;
 }
 
