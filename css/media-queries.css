@@ -1,0 +1,68 @@
+/************************************************************************************
+smaller than 800
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+    .logo {
+        font-family: "bauhaus";
+        font-size: 60px;
+        color: #CD2626;
+    }
+
+    .first-part {
+        padding-left: 0px;   
+        height: 50px;
+    }
+
+    .second-part {
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 70px;
+        text-align: center;
+    }
+
+    .slogan {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    li {
+        padding: 0px;
+    }
+
+    .nav {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 400px && max-width: 390px) {
+    li {
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 380px) {
+    .navbar-inner, .navbar-fixed-top, .navbar-inner {
+      min-height: 0px;
+      padding-right: 0px;
+      padding-left: 0px;
+      background-color: #CD2626;
+    }
+
+}
+
+
+/************************************************************************************
+biggest than 980
+*************************************************************************************/
+@media screen and (min-width: 800px) {
+    
+     
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (min-width: 480px) {
+    
+}

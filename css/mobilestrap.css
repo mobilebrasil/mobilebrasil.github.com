@@ -1,0 +1,38 @@
+/** Estilização do menu **/
+.nav {
+	padding-bottom: 20px;
+}
+
+.nav-pills > .active > a {
+	background-color: #CD2626;
+}
+
+.nav-pills > .active > a:hover {
+	color: #CD2626;
+	text-decoration: none;
+}
+
+a {
+	color: #CD2626;
+	text-decoration: none;
+}
+
+.nav > li > a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #CD2626;
+}
+
+.nav-pills > .active > a:hover {
+	color: #CD2626;
+	background-color: #eee;
+}
+
+li {
+	padding: 60px;
+}
+/** Fim da estilização do menu **/
+
+.container {
+	padding-top: 20px;
+}
