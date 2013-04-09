@@ -13,18 +13,19 @@ body {
 
 .logo {
 	font-family: "bauhaus";
-	font-size: 200px;
+	font-size: 220px;
 	color: #CD2626;
 }
 
 .first-part {
-	height: 150px;
-	padding-left: 60px;
+	height: 200px;
+	padding-left: 130px;
+	padding-top: 50px;
 }
 
 .second-part {
-	padding-right: 125px;
-	height: 120px;
+	padding-right: 140px;
+	height: 130px;
 }
 
 .align-center {
@@ -32,6 +33,6 @@ body {
 }
 
 .slogan {
-	font-size: 22px;
+	font-size: 24px;
 	text-align: center;
 }
