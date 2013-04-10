@@ -156,21 +156,8 @@ Desktops and laptops
 
     .logo {
         font-family: "bauhaus";
-        font-size: 70px;
+        font-size: 150px;
         color: #cd2626;
-    }
-
-    .first-part {
-        padding-top: 40px;
-        padding-left: 0px;   
-        height: 120px;
-    }
-
-    .second-part {
-        padding-left: 0px;
-        padding-right: 0px;
-        height: 100px;
-        text-align: center;
     }
 
     .slogan {
@@ -178,6 +165,4 @@ Desktops and laptops
         text-align: center;
     }
 }
-
-
 
