@@ -12,7 +12,7 @@ body {
 
 .logo {
 	height: 100px;
-	padding-top: 180px;
+	padding-top: 190px;
 	font-family: "bauhaus";
 	font-size: 200px;
 	color: #cd2626;
@@ -29,7 +29,6 @@ body {
 }
 
 .titles {
-	font-family: "bauhaus";
 	font-size: 25px;
 	color: #cd2626;
 	text-align: center;

@@ -1,59 +1,23 @@
 /************************************************************************************
 Desktops and laptops 
 *************************************************************************************/
-@media only screen and (min-width: 1023px) and (max-width: 1152px) { 
-
-    .brand-logo {
-        display: none;
-    }
-
-    .first-part {
-        height: 170px;
-        padding-left: 30px;
-        padding-top: 30px;
-    }
-
-    .second-part {
-        padding-left: 0px;
-        padding-right: 130px;
-        height: 130px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) { 
-
-    .brand-logo {
-        display: none;
-    }
-    .navbar-inverse .nav-collapse .nav > li > a {
-        color: #cd2626;
-    }
-
+@media only screen and (min-width: 799px) and (max-width: 1152px) { 
     .logo {
         font-family: "bauhaus";
-        font-size: 180px;
+        font-size: 160px;
         color: #cd2626;
-    }
-
-    .first-part {
-        height: 170px;
-        padding-left: 100px;
-        padding-top: 30px;
-    }
-
-    .second-part {
-        padding-left: 0px;
-        padding-right: 110px;
-        height: 130px;
+        padding-top: 100px;
     }
 
     .slogan {
         font-size: 16px;
+        padding-bottom:50px;
         text-align: center;
     }
+
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
+@media screen and (max-width: 800px) {
     body {
         padding-top: 0;
     }
@@ -62,38 +26,42 @@ Desktops and laptops
         color: #cd2626;
     }
 
+    .logo {
+        font-family: "bauhaus";
+        font-size: 120px;
+        color: #cd2626;
+        padding-top: 100px;
+    }
+
     .navbar .nav > li > a {
         border-top: 4px solid #fff;
         padding: 0px;
     }
 
+    .slogan {
+        font-size: 16px;
+        padding-bottom:50px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 640px) { 
     .logo {
         font-family: "bauhaus";
         font-size: 100px;
         color: #cd2626;
-    }
-
-    .first-part {
-        padding-top: 40px;
-        padding-left: 0px;   
-        height: 120px;
-    }
-
-    .second-part {
-        padding-left: 0px;
-        padding-right: 0px;
-        height: 100px;
-        text-align: center;
+        padding-top: 70px;
     }
 
     .slogan {
         font-size: 16px;
+        padding-bottom:40px;
         text-align: center;
     }
+
 }
 
-@media only screen and (min-width: 321px) and (max-width: 479px) {
-
+@media only screen and (max-width: 360px) {
     body {
         padding-top: 0;
     }
@@ -112,57 +80,36 @@ Desktops and laptops
     }
 
     .logo {
+        padding-top: 30px;
         font-family: "bauhaus";
-        font-size: 100px;
+        font-size: 45px;
         color: #cd2626;
-    }
-
-    .first-part {
-        padding-top: 40px;
-        padding-left: 0px;   
-        height: 50px;
-    }
-
-    .second-part {
-        padding-left: 0px;
-        padding-right: 0px;
-        height: 50px;
-        text-align: center;
-    }
-
-    .slogan {
-        font-size: 16px;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    body {
-        padding-top: 0;
-    }
-
-    .brand-logo {
-        display: none;
-    }
-
-    .navbar-inverse .nav-collapse .nav > li > a {
-        color: #cd2626;
-    }
-
-    .navbar .nav > li > a {
-        border-top: 4px solid #fff;
-        padding: 0px;
-    }
-
-    .logo {
-        font-family: "bauhaus";
-        font-size: 150px;
-        color: #cd2626;
+        height: 40px;
     }
 
     .slogan {
         font-size: 14px;
         text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .titles {
+        font-size: 20px;
+    }
+
+    .form-horizontal .controls {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+
+    .logo {
+        padding-top: 30px;
+        font-family: "bauhaus";
+        font-size: 30px;
+        color: #cd2626;
+        height: 40px;
     }
 }
 

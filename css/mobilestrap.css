@@ -69,3 +69,12 @@ body {
 	-moz-box-shadow: none;
 	box-shadow: none;
 }
+
+/* Form da modal */
+.form-horizontal .control-label {
+	width: 60px;
+}
+
+.form-horizontal .controls {
+	margin-left: 80px;
+}
