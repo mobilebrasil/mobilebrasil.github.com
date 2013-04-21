@@ -222,7 +222,7 @@ figure.figure-hover { position:relative; }
 		bottom:10px;
 		left:10px;
 		right:10px;
-		background:url(../images/base-figure-overlay.png) repeat;
+		background:url(../img/base-figure-overlay.png) repeat;
 		display:none;
 	}
 		figure.figure-hover div .icon-hover {
@@ -234,7 +234,7 @@ figure.figure-hover { position:relative; }
 		}
 		
 		/* Figure hover icon */		
-		figure.figure-hover div .icon-hover.icon-hover-zoom { background:url(../images/icon-hover-zoom.png) no-repeat center center; }
+		figure.figure-hover div .icon-hover.icon-hover-zoom { background:url(../img/icon-hover-zoom.png) no-repeat center center; }
 		
 .alert .close { top:0; }
 
@@ -295,7 +295,7 @@ figure.figure-hover { position:relative; }
 		left:0;
 		width:100%;
 		height:100%;
-		background:url(../images/slider-overlay.png) repeat;
+		background:url(../img/slider-overlay.png) repeat;
 		text-align:center;
 	}
 	#slider .container { margin-top:16%; }
@@ -333,7 +333,7 @@ figure.figure-hover { position:relative; }
 }
 	#main .header { margin-bottom:30px; }
 		#main .header .base-header {
-			background:url(../images/sep-border-main.png) repeat-x center center;
+			background:url(../img/sep-border-main.png) repeat-x center center;
 			margin-bottom:15px;
 		}
 		#main .header h2 {
@@ -369,7 +369,7 @@ figure.figure-hover { position:relative; }
 		}
 	#main .sep-border {
 		height:7px;
-		background:url(../images/sep-border-main.png) repeat-x center center;
+		background:url(../img/sep-border-main.png) repeat-x center center;
 	}
 		
 /* Services */
@@ -501,7 +501,7 @@ figure.figure-hover { position:relative; }
 			#main .blog .item .desc .btn-more {
 				float:right;
 				color:#FFF;
-				background:#cd2626 url(../images/btn-more-icon.png) no-repeat center right;
+				background:#cd2626 url(../img/btn-more-icon.png) no-repeat center right;
 				padding:10px 40px 10px 15px;
 			}
 			#main .blog .item .desc .btn-more:hover { background-color:#d3532b; }
@@ -515,7 +515,7 @@ figure.figure-hover { position:relative; }
 	#main .blog .item.single .desc .btn-close {
 		float:right;
 		color:#FFF;
-		background:#3a3a3a url(../images/btn-close-icon.png) no-repeat center right;
+		background:#3a3a3a url(../img/btn-close-icon.png) no-repeat center right;
 		padding:10px 40px 10px 15px;
 	}
 	#main .blog .item.single .desc .btn-close:hover { background-color:#000; }
