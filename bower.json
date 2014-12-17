@@ -1,0 +1,34 @@
+{
+  "name": "Comunidade Mobile Brasil",
+  "version": "0.1.0",
+  "homepage": "mobilebrasil.org",
+  "authors": [
+    "Morvana Bonin <morvanabonin@gmail.com>"
+  ],
+  "description": "Site com informações da comunidade mobile no Brasil, para ajudar a fomentar eventos e conteúdo.",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "mobile",
+    "ios",
+    "android",
+    "windows phone",
+    "firefox os",
+    "appsterdam"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "jquery": "~2.1.1",
+    "less": "~2.1.1"
+  }
+}
