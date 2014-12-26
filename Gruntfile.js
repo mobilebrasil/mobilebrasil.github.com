@@ -3,24 +3,18 @@ module.exports = function(grunt) {
 
 	pkg: grunt.file.readJSON('package.json'),
 
-	// carregando plugins
-	grunt.loadNpmTasks( 'grunt-contrib-watch' );
-	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
-	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-contrib-less');
-
 	// Project configuration.
 	grunt.initConfig ({
 
 		// Watch
 		watch: {
 			css: {
-				files: [ 'less/*.less' ],
+				files: [ 'assets/less/*.less' ],
 				tasks: [ 'less' ]
 			},
 			js: {
-				files: 'js/*.js',
-				tasks: ['uglify'] 
+				files: 'assets/js/*.js',
+				tasks: ['uglify', 'jshint'] 
 			}
 		},
 
@@ -32,8 +26,7 @@ module.exports = function(grunt) {
 		            		compress: true
 		        		},
 		        		files: {
-		            		'dist/css/style.min.css': 
-		            		['assets/less/style.less'] 
+		        			'dist/css/style.min.css': 'assets/less/main.less'
 		       		}
 		    	}
 	    	},
@@ -45,12 +38,28 @@ module.exports = function(grunt) {
 	    		},
 	    		dist: {
 	      			files: {
-	        				'dist/scipts/functions.min.js': 
-	        				['assets/js/functions.js']
+	      				'dist/scripts/functions.min.js': 'assets/js/functions.js'
 	      			}
 	    		}
+    		},
+
+    		jshint: {
+    			options: {
+    				globals: {
+    					jQuery: true
+    				}
+    			},
+    			files: {
+    				src: ['Gruntfile.js', 'assets/js/*.js']
+    			}
     		}
 	});
+
+	// carregando plugins
+	grunt.loadNpmTasks( 'grunt-contrib-watch' );
+	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
+	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-contrib-less');
 
 	// registrando tarefas
 	grunt.registerTask('default', ['watch'] );
