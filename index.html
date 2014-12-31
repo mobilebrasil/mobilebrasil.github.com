@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<link href="assets/components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<link href="assets/components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+		<link href="dist/css/style.min.css" rel="stylesheet" type="text/css">
 		
 	    	<title>Mobile Brasil</title>
 	<head>
@@ -19,15 +20,32 @@
 					<li><a href="#"> Eventos</a></li>
 				</ul>
 			</div>
+			<!-- menu for mobile device -->
+			<div id="mobile-menu">
+				<ul class="sidebar-nav-mobile">
+					<li class="sidebar-brand-mobile">
+						<a href="#" data-toggle="tooltip" data-placement="right" title="Home"> <span class="glyphicon glyphicon-home"></span></a>
+					</li>
+					<li><a href="#" data-toggle="tooltip" data-placement="right" title="Eventos"> <span class="glyphicon glyphicon-th-large"></span></a></li>
+				</ul>
+			</div>
+			<!-- end of mobile menu -->
+			<div class="menu-door">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</div>
+
 		</div>
 		<div id="page-content-wrapper">
-			<div class="container-fluid">
-				<div class="row">
-					This part is the site
+			<section>
+				<div class="container-fluid">
+					<div class="row">
+						This part is the site
+					</div>
 				</div>
-			</div>
+			</section>
 		</div>
 		<script src="assets/components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 		<script src="assets/components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="dist/scripts/functions.min.js" type="text/javascript"></script>
 	</body>
 </html>
