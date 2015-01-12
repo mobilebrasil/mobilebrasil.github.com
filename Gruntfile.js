@@ -1,10 +1,10 @@
 module.exports = function(grunt) {
 	"use strict";
 
-	pkg: grunt.file.readJSON('package.json'),
-
 	// Project configuration.
 	grunt.initConfig ({
+
+		pkg: grunt.file.readJSON('package.json'),
 
 		// Watch
 		watch: {
@@ -38,7 +38,8 @@ module.exports = function(grunt) {
 	    		},
 	    		dist: {
 	      			files: {
-	      				'dist/scripts/functions.min.js': 'assets/js/functions.js'
+	      				'dist/scripts/functions.min.js': 'assets/js/functions.js',
+	      				'dist/scripts/event_reader.min.js': 'assets/js/event_reader.js'
 	      			}
 	    		}
     		},
@@ -52,15 +53,60 @@ module.exports = function(grunt) {
     			files: {
     				src: ['Gruntfile.js', 'assets/js/*.js']
     			}
-    		}
+    		},
+
+    		jslint: {
+    			server: {
+    				src: ['Gruntfile.js', 'assets/js/*.js']
+    			},
+    			options: {
+    				edition: 'latest',
+    				log: 'tmp/logs/js-lint.log',
+    				errorsOnly: true
+    			}
+    		},
+
+    		//copy the files
+    		copy: {
+			main: {
+				files: [{
+					expand: true,
+					cwd: 'assets/components/bootstrap/fonts/',
+					src: '**',
+					dest: 'dist/fonts/',
+					flatten: true,
+					filter: 'isFile',
+				},
+				{
+					expand: true,
+					cwd: 'assets/components/jquery/dist/',
+					src: 'jquery.min.js',
+					dest: 'dist/scripts/',
+					flatten: true,
+					filter: 'isFile',
+				},
+				{
+					expand: true,
+					cwd: 'assets/components/bootstrap/dist/js/',
+					src: 'bootstrap.min.js',
+					dest: 'dist/scripts/',
+					flatten: true,
+					filter: 'isFile',
+				}],
+				
+			},
+		},
+
 	});
 
 	// carregando plugins
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
 	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-jslint');
 	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-contrib-copy');
 
 	// registrando tarefas
 	grunt.registerTask('default', ['watch'] );
-}
+};

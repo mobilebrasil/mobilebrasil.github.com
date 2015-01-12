@@ -1,0 +1,18 @@
+var events = [
+	{
+		"name" : "Mobile Brazil Conference",
+		"hour" : "8:00 as 18:00",
+		"date" : "10/11/2015",
+		"place" : "Flor de lis",
+		"url" : "www.sitedoevento.com",
+		"image" : "http://www.wilsoninfo.com/300x300.gif"
+	},
+	{
+		"name" : "Mobile Brazil",
+		"hour" : "8:00 as 18:00",
+		"date" : "10/11/2015",
+		"place" : "Flor de lis",
+		"url" : "www.sitedoevento.com",
+		"image" : "http://www.wilsoninfo.com/300x300.gif"
+	},
+];
