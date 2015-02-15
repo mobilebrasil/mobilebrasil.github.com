@@ -1,2 +1,6 @@
 node_modules
 assets/components/
+dist/fonts/glyphicons*
+dist/scripts/bootstrap.min.js
+dist/scripts/jquery.min.js
+dist/scripts/jquery.min.map

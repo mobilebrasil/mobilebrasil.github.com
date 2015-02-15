@@ -78,20 +78,16 @@ module.exports = function(grunt) {
 					filter: 'isFile',
 				},
 				{
-					expand: true,
-					cwd: 'assets/components/jquery/dist/',
-					src: 'jquery.min.js',
-					dest: 'dist/scripts/',
-					flatten: true,
-					filter: 'isFile',
+					src: 'assets/components/jquery/dist/jquery.min.js',
+					dest: 'dist/scripts/jquery.min.js',
 				},
 				{
-					expand: true,
-					cwd: 'assets/components/bootstrap/dist/js/',
-					src: 'bootstrap.min.js',
-					dest: 'dist/scripts/',
-					flatten: true,
-					filter: 'isFile',
+					src: 'assets/components/jquery/dist/jquery.min.map',
+					dest: 'dist/scripts/jquery.min.map',
+				},
+				{
+					src: 'assets/components/bootstrap/dist/js/bootstrap.min.js',
+					dest: 'dist/scripts/bootstrap.min.js',
 				}],
 				
 			},
