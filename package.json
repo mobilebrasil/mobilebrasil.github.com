@@ -1,0 +1,19 @@
+{
+  "name": "mobile-brasil-comunidade",
+  "version": "1.0.0",
+  "dependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jslint": "^1.1.12",
+    "jquery": "^2.1.3",
+    "jshint": "^2.5.11",
+    "less": "^2.1.2",
+    "uglify": "^0.1.1"
+  },
+  "main": "index.html",
+  "devDependencies": {
+    "grunt-contrib-copy": "^0.7.0"
+  }
+}
